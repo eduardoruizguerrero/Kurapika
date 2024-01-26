@@ -60,8 +60,8 @@ function verificarIntento(){
     //el parseInt nos convierte el id valorUsuario de string a numero
     let numeroDeUsuario = parseInt(document.getElementById("valorUsuario").value);
     //el typeof nos indica si es string o number
-    console.log(typeof(numeroDeUsuario));
-    console.log(numeroSecreto);
+    //console.log(typeof(numeroDeUsuario));
+    //console.log(numeroSecreto);
     console.log(typeof(numeroSecreto));
     console.log(numeroDeUsuario);
     //el == nos indica que estamos generando un booleano, si es igual es true y si es indiferente es false

@@ -1,6 +1,6 @@
 //nos indica que el numero secreto se está guardando en el registro
 let numeroSecreto = 0;
-console.log(numeroSecreto);
+//console.log(numeroSecreto);
 let intentos = 0;
 let maximosIntentos = 5;
 let listaNumeroSorteado = [];

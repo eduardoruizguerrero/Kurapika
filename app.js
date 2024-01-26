@@ -31,7 +31,7 @@ function generarNumeroSecreto() {
     son iguales a nuestro numero maximo ya no se puede seguir y se reinicia el juego
     */
     
-   console.log(numeroGenerado)
+   //console.log(numeroGenerado)
     if (listaNumeroSorteado.length == numeroMaximo) {
         asignarTextoElemento("p", "Ya se sortearon todos los números posibles, pulsa F5 o recarga la página.");
     }else{

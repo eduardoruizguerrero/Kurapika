@@ -67,7 +67,7 @@ function verificarIntento(){
     //el == nos indica que estamos generando un booleano, si es igual es true y si es indiferente es false
     if (numeroSecreto === numeroDeUsuario) {
         //dentro de una funcion llamamos a otra funcion a que nos muestre un mensaje si el ns es igual a ndu y la cantidad de intentos
-        asignarTextoElemento("p", "¡Bien!. ¡El número de Kurapika era ${numeroSecreto}!. ");
+        asignarTextoElemento("p", `¡Bien!. ¡El número de Kurapika era ${numeroSecreto}!. `);
         //con getelementbyid buscamos nuestro id y con la funcion removeattribute seleccionamos el atributo a remover, luego de determinado if 
         document.getElementById("reiniciar").removeAttribute("disabled");
         

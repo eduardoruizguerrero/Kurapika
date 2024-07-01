@@ -1,4 +1,4 @@
-# Kurapika  
+# Kurapika
 Guess Kurapika's number!.  
 ## Editing code!.  
 If you change let **maxnumber** to look like **minnumber**, the _p_ html element changes its text.  

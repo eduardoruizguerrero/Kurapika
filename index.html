@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!--font-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="kuraquiz.png">
+    <title>Kurapika Quest!</title>
+</head>
+<body>
+    <header>
+        <div class="divhspan">
+            <span>¿En qué número piensa Kurapika?.</span>
+        </div>
+    </header>
+    <div class="container">
+        <div class="divspan">
+            <span class="subtitlep" id="subtitlep"></span>
+            <a class="spanGithub" href="https://www.github.com/eduardoruizguerrero" target="_blank"><span class="spanGithub">github :3</span></a>
+        </div>
+        <div class="divtextp">
+            <p class="textp" id="textp"></p>
+            <p class="secrettextp" id="secrettextp" hidden></p>
+        </div>
+        <div class="divimagen">
+            <img src="default.jpg" alt="" width="300px" id="defaultimg">
+            <img src="minnumber.jpg" alt="" width="300px" id="minnumberimg">
+            <img src="maxnumber.jpg" alt="" width="300px" id="maxnumberimg">
+            <img src="correctnumber.jpg" alt="" width="300px" id="correctnumberimg">
+            <img src="noattemp.jpg" alt="" width="300px" id="noattempimg">
+            <img src="pressf5.jpg" alt="" width="300px" id="pressf5img">
+        </div>
+        <div class="divinputbuttons">
+            <input type="number" min="1" max="13" autocomplete="off" class="ryodan" id="ryodan" placeholder="?" enabled>
+            <div class="divbuttons">
+                <button id="send" onclick="attempuser();"><span>intentar</span></button>
+                <button id="newnumber" onclick="fnewnumber();"><span>nuevo número</span></button>
+                <button id="reloadbutton"><span>recargar página</span></button>
+            </div>
+        </div>
+    </div>
+    <script src="kuraquiz.js"></script>
+</body>
+</html>
